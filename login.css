@@ -1,0 +1,45 @@
+body{
+	background: lightblue;
+}
+
+.super_contenedor{
+	width: 1250px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor{
+	border: 1px solid;
+	height: 327px;
+	width: 837px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	border-style: outset;
+	background: white;
+}
+
+.caja{
+	height: 30px;
+	width: 300px;
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+.boton{
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	margin-left: 30px;
+	margin-top: 20px;
+	background: lightblue;
+	margin: 20px;
+}
+

@@ -66,7 +66,7 @@ li{
 
 .dig {
 	border: 1px solid;
-	height: 250px;
+	height: 150px;
 	width: 500px;
 	margin-bottom: 125px;
 	background-color: lightblue;
@@ -76,7 +76,7 @@ li{
 
 .sis{
 	border: 1px solid;
-	height: 250px;
+	height: 150px;
 	width: 500px;
 	/*align-self: center;*/
 	background-color: lightblue;
@@ -85,9 +85,9 @@ li{
 
 .auto{
 	border: 1px solid;
-	height: 250px;
+	height: 150px;
 	width: 500px;
-	margin-top: 125px;
+	margin-top: 22px;
 	background-color: lightblue;
 	text-align: center;
 }
@@ -95,7 +95,7 @@ li{
 .news_body{
 	height: 250px;
 	border: 1px solid;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -122,16 +122,21 @@ li{
 }
 
 .clientes_top{
-	border: 1px solid;
+	/*border: 1px solid;*/
 	text-align: center;
-	margin-bottom: 150px;
-	background: lightblue;
+	margin-bottom: 100px;
+	/*background: lightblue;*/
+	height: 400px;
+}
+
+.clientes_encabezado{
+	margin-top: 10px;
 }
 
 .clientes{
-	height: 500px;
+	height: 300px;
 	/*border: 1px solid;*/
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -142,12 +147,9 @@ li{
 	border: 1px solid;
 	border-radius: 5px;
 	background: lightblue;
-	width: 500px;
-}
-
-.cliente1{
-	width: 418px;
-	height: 363px;
+	width: 570px;
+	height: 263px;
+	box-sizing: border-box;
 }
 
 .clientes_contenedor_imagenes{
@@ -158,24 +160,27 @@ li{
 	background: white;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
+	height: 111px;
 }
 
 .clientes_contenedor_imagenes img{
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .clientes_detalles{
 	margin: 15px;
 	background: white;
 	text-align: center;
-	height: 150px;
+	height: 120px;
 	border-radius: 5px;
+	padding-top: 2px;
+
 }
 
 .clientes_detalles a{
 	border: 1px solid;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 5px;
 }
 
@@ -195,6 +200,13 @@ li{
 
 .li_footer{
 	margin: 10px 10px;
+	color: black;
+}
+
+.news{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
 
 .news_text{
